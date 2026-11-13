@@ -65,7 +65,7 @@ spec:
       runAsUser: 1001
   steps:
     - name: request-advisory-oci-artifact
-      image: quay.io/konflux-ci/release-service-utils@sha256:4755f5b71a4d7ba7d7d9c9f36dec12b73c49179a927e92547843db5be983bbad
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:e75f9a827f1626971026e7153049584c97365b6ed70fc0ba1d0f0867de7fe219
       computeResources:
         limits:
           memory: 512Mi
